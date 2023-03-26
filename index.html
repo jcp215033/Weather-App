@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./style.css" />
+		<title>Weather App</title>
+	</head>
+	<body>
+		<div class="location">
+			<h1 id = "location-h1">Loading Location...</h1>
+			<img id = "location-img"/>
+		</div>
+		<div class="temperature">
+			<div class="degree-section">
+				<h2 id = "degree-h1" onselectstart="return false">Loading Temperature...</h2>
+				<span id = "degree-span" onselectstart="return false"></span>
+			</div>
+			<div id = "description">Loading Conditions...</div>
+		</div>
+		<div>
+			<button id = "rand">Randomize My Location</button>
+			<button id = "home">Bring Me Home</button>
+		</div>
+		<script type='text/javascript' src='config.js'></script>
+		<script src="app.js"></script>
+	</body>
+</html>
